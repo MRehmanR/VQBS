@@ -45,11 +45,14 @@ $feedbacks = $result->fetch_all(MYSQLI_ASSOC);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback System</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Styles/styles.css">
+
+
 </head>
 <body>
 
 <div class="container mt-4">
-    <h2 class="text-center">💬 Feedback System</h2>
+    <h2 class="text-center">💬 Feedback</h2>
 
     <!-- Student Feedback Form -->
     <?php if ($role === 'student') : ?>

@@ -47,6 +47,7 @@ $role = $_SESSION['role'];
                     <li class="nav-item"><a class="nav-link" href="result.php"><i class="bi bi-clipboard-check"></i>Results</a></li>
                     <li class="nav-item"><a class="nav-link" href="announcement.php"><i class="bi bi-bell"></i>Annoucment</a></li>
                     <li class="nav-item"><a class="nav-link" href="feedback.php"><i class="bi bi-chat-dots"></i>Feedback</a></li>
+                    <li class="nav-item"><a class="nav-link" href="user_performance.php"><i class="bi bi-chat-dots"></i>Report</a></li>
                     <li class="nav-item"><a class="nav-link" href="logout.php"><i class="bi bi-box-arrow-right"></i> Logout</a></li>
 
                 <?php } else { ?>
